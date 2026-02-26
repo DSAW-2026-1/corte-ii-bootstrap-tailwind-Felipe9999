@@ -25,7 +25,11 @@
     font-style: normal;
 }
 .sqPadding{
-    padding: 71px !important;
+    /*padding: 71px 71px 60px 71px !important;*/
+
+    padding-left: 71px !important;
+    padding-right: 71px !important;
+
 }
 /*
 
