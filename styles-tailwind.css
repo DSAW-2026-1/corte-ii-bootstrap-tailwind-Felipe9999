@@ -1,0 +1,33 @@
+/* Tailwind-specific overrides copied from styles-bootstrap.css */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.bold{
+    font-weight: 700 !important;
+}
+.lexend{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.sqPadding{
+    padding-left: 71px !important;
+    padding-right: 71px !important;
+}
+
+/* Utility for numeric stat headings (optional tweak) */
+.dataHeader{
+    color: #111827;
+}

@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Tailwind | Stats preview card component</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        
+        <title>Tailwind | Stats preview card component</title>
+        
+        <link rel="stylesheet" href="styles-tailwind.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+            
+        </style>
+    </head>
+    <body>
+        <main class="max-w-6xl mx-auto px-5 py-8">
+            <div class="bg-white rounded-lg overflow-hidden shadow-sm">
+                <div class="lg:flex lg:flex-row-reverse lg:items-center">
+                    <div>
+                        <img src="images/image-header-desktop.jpg" alt="Header image" loading="lazy" width="700" height="500" class="w-full h-auto block">
+                    </div>
+                    <div class="px-6 py-10 lg:w-1/2">
+                        <h1 class="text-3xl sm:text-4xl font-extrabold inter mb-4">Get insights that help your business grow.</h1>
+                        <p class="text-gray-600 lexend mb-6">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+                        experience, and overall efficiency.</p>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+                        <ul class="flex justify-between items-end gap-4 text-center">
+                            <li class="flex-1">
+                                <h2 class="text-2xl font-bold dataHeader mb-0">10k+</h2>
+                                <p class="text-xs text-gray-500 uppercase mt-1">Companies</p>
+                            </li>
+                            <li class="flex-1">
+                                <h2 class="text-2xl font-bold dataHeader mb-0">314</h2>
+                                <p class="text-xs text-gray-500 uppercase mt-1">Templates</p>
+                            </li>
+                            <li class="flex-1">
+                                <h2 class="text-2xl font-bold dataHeader mb-0">12M+</h2>
+                                <p class="text-xs text-gray-500 uppercase mt-1">Queries</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="attribution mt-4 text-center">
+                Coded by <a href="#">Felipe9999</a>.
+            </div>
+        </main>
+    </body>
 </html>
