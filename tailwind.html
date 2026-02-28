@@ -22,7 +22,10 @@
             <div class="bg-white rounded-lg overflow-hidden shadow-sm">
                 <div class="lg:flex lg:flex-row-reverse lg:items-center">
                     <div>
-                        <img src="images/image-header-desktop.jpg" alt="Header image" loading="lazy" width="700" height="500" class="w-full h-auto block">
+                        <picture>
+                            <source media="(max-width:767px)" srcset="images/image-header-mobile.jpg">
+                            <img src="images/image-header-desktop.jpg" alt="Header image" loading="lazy" width="700" height="500" class="w-full h-auto block">
+                        </picture>
                     </div>
                     <div class="px-13 py-10 lg:w-1/2">
                         <h1 class="text-3xl sm:text-4xl font-bold inter mb-8 mt-3">Get insights that help your business grow.</h1>
