@@ -24,6 +24,10 @@
     font-weight: 400;
     font-style: normal;
 }
+em{
+    font-style: normal;
+    color: #b05ce5;
+}
 /*
 
 .inter-<uniquifier> {
