@@ -3,7 +3,6 @@
     text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
     text-decoration: none;
 }
 
@@ -26,7 +25,7 @@
 }
 em{
     font-style: normal;
-    color: #b05ce5;
+    color: hsl(277, 64%, 61%);
 }
 /*
 
