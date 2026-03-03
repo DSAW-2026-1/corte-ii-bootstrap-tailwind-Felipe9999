@@ -1,0 +1,65 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    text-decoration: none;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#title{
+    font-weight: 700;
+}
+.bold{
+    font-weight: 700 !important; /*Unfortunate but the only way to get bootstrap to comply. TODO: Find a better way to get bootstrap to comply*/
+}
+.lexend{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+em{
+    font-style: normal;
+    color: hsl(277, 64%, 61%);
+}
+.bg{
+    background: hsl(233, 47%, 7%);
+}
+.myCard{
+    background: hsl(244, 38%, 16%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.data{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+img{
+    mix-blend-mode: multiply;
+}
+.imgBg{
+    background: hsl(277, 64%, 61%);
+}
+/*
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
